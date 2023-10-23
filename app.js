@@ -7,6 +7,7 @@ const options = {
   },
 };
 
+//api에서 불러온 영화 정보 담는 배열들
 let img_url = [20];
 let titles = [20];
 let overviews = [20];
