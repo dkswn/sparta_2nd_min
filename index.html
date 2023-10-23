@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="app.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>내배캠 인기 영화</title>
+  </head>
+  <body>
+    <header>
+      <div id="title_box">
+        <a href="./index.html">내배캠 인기 영화</a>
+      </div>
+      <div id="search_box">
+        <input
+          onkeyup="enterKey();"
+          id="search_input"
+          type="text"
+          placeholder="제목으로 영화를 검색할 수 있어요:)"
+        />
+        <button id="search_btn">검색</button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>TOP 20</h2>
+      </section>
+
+      <section>
+        <ul id="grid" class="poster_grid"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <button id="top_btn">Top</button>
+    </footer>
+  </body>
+</html>
